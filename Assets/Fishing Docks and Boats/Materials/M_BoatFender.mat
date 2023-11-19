@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_BoatFender
+  m_Shader: {fileID: -6465566751694194690, guid: a74b5d8dcda9345458ed6de430a6478e,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_56576099:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6F58AFC2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_91636198:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_98F7D5CC:
+        m_Texture: {fileID: 2800000, guid: 349a3236ebbe00f4280a2a1a8cb473ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A747A8B4:
+        m_Texture: {fileID: 2800000, guid: 113b4942eecc08544bf88fad88b97335, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A99B01D5:
+        m_Texture: {fileID: 2800000, guid: 7d126e75cc57e484b888f1b4a0e1eaf1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_D344B4C7:
+        m_Texture: {fileID: 2800000, guid: 9058dd4bb4c07644e8de512b33172624, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_25EE8AB6: 0
+    - Boolean_4D09980B: 1
+    - Boolean_7F4794BA: 1
+    - Boolean_853AFDDC: 1
+    - Boolean_8DD6747B: 1
+    - Boolean_9571555D: 0
+    - Boolean_B7313678: 0
+    - Boolean_C13726DE: 1
+    - Boolean_D28FBD7E: 0
+    - Boolean_F86B08E8: 1
+    - FlipNormalG: 0
+    - Vector1_3B6E91F3: 1
+    - Vector1_65EAE723: 0
+    - Vector1_6B5EBCE2: 1
+    - Vector1_6CC96ECB: 1
+    - Vector1_77ABB8CF: 0
+    - Vector1_7E4E731D: 1
+    - Vector1_8F5CC628: 0
+    - Vector1_A0077762: 0
+    - Vector1_E8AC4028: 0
+    - Vector1_EDD47D7: 1
+    - Vector1_F0446C84: 1
+    - Vector1_FA9D217A: 0
+    m_Colors:
+    - Color_1D6BBDA6: {r: 1, g: 1, b: 1, a: 0}
+    - Color_2A05D419: {r: 0, g: 0, b: 0, a: 0}
+    - Color_A284D8B5: {r: 1, g: 1, b: 1, a: 0}
+    - Color_D4DB5CCE: {r: 0.28912866, g: 0.8018868, b: 0.26855645, a: 0}
