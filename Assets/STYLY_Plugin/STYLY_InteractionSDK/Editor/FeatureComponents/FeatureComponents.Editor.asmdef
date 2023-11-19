@@ -1,0 +1,19 @@
+{
+    "name": "FeatureComponents.Editor",
+    "references": [
+        "GUID:64a7b99ed8dfb9140a2dcd78c4d44a6a",
+        "GUID:768a90dfc13bd5948b9e8a9d6560e28c",
+        "GUID:356ad96ed1f45a64894cd9818fd081f9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

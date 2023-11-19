@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:engine="UnityEngine.UIElements"
+  xmlns:styly="STYLY.Uploader.UI"
+  xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+<engine:VisualElement name="screen">
+  <engine:VisualElement name="header" class="section">
+    <engine:VisualElement class="title">
+      <engine:Image class="logo" />
+      <engine:Label text="Unity plugin for STYLY" />
+    </engine:VisualElement>
+    <engine:TextElement class="textline" text="Right click on a prefab and select &quot;STYLY&quot;-&quot;Upload prefab or scene to STYLY&quot;. Your prefab will appear in &quot;3D Model&quot;-&quot;My Models&quot; section in STYLY." />
+    <engine:Box>
+      <engine:Button name="get_styly_api_key" text="Get STYLY API Key"/>
+      <engine:Button name="get_started" text="Get Started"/>
+    </engine:Box>
+  </engine:VisualElement>
+  <engine:VisualElement name="content" class="section">
+    <!-- UnityModules系エラー -->
+    <styly:UnityModulesErrorElement />
+    <!-- CacheServer系エラー -->
+    <styly:CacheServerErrorElement />
+    <engine:VisualElement class="inputline inputlinearea">
+      <engine:Label text="Email" />
+      <engine:TextField name="email" text="" />
+    </engine:VisualElement>
+    <engine:VisualElement class="inputline inputlinearea">
+      <engine:Label text="API Key" />
+      <engine:TextField name="api_key" text="" />
+    </engine:VisualElement>
+    <engine:VisualElement class="checkwithhelp inputlinearea">
+      <engine:Toggle name="azcopy_enabled" value="false" text="Enable AzCopy" />
+      <engine:Box>
+        <engine:TextElement text="AzCopy can be used for faster upload" />
+      </engine:Box>
+    </engine:VisualElement>
+  </engine:VisualElement>
+  <engine:VisualElement name="footer" class="section">
+    <engine:Button name="about_styly" text="About STYLY"/>
+  </engine:VisualElement>
+</engine:VisualElement>
+</engine:UXML>

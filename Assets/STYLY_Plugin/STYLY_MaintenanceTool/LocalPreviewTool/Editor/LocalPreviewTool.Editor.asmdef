@@ -1,0 +1,18 @@
+{
+    "name": "LocalPreviewTool.Editor",
+    "references": [
+        "GUID:a899cd22b3b3ef541a87b29a663dab8d",
+        "GUID:455572486d4c4be448a463e978e40414"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

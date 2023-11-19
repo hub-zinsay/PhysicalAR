@@ -1,0 +1,17 @@
+{
+    "name": "Simulator.Editor",
+    "references": [
+        "GUID:9dd05b38b68e61244a81b960b61eb5ab"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

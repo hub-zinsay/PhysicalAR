@@ -1,0 +1,14 @@
+.errorarea{
+	background-color: #0A151C;
+	width: 96%;
+	padding:5px ;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.errorarea TextElement{
+	color: #ff005c;
+	padding:3px;
+}
+.errorarea Button{
+	margin:5px 12%;
+}

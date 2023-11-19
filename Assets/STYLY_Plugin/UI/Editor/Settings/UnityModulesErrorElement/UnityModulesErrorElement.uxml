@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:engine="UnityEngine.UIElements"
+  xsi:noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement name="error_area" class="errorarea">
+    <engine:VisualElement name="single_module_error" />
+    <engine:TextElement text="STYLY Uploader requires above modules. Please install these modules." />
+    <engine:Button name="more_information" text="More Information" />
+  </engine:VisualElement>
+</engine:UXML>

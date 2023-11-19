@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:engine="UnityEngine.UIElements"
+  xmlns:editor="UnityEditor.UIElements"
+  xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+<engine:VisualElement name="screen">
+  <engine:VisualElement name="header" class="section">
+    <engine:VisualElement class="title">
+      <engine:Image class="logo" />
+      <engine:Label text="Update Checker" />
+    </engine:VisualElement>
+  </engine:VisualElement>
+  <engine:VisualElement name="content" class="section">
+    <!-- latest -->
+    <engine:VisualElement name="latest" class="showstate">
+      <engine:TextElement class="message" text="Unity Plugin For STYLY is up to date." />
+      <engine:TextElement name="current_version" class="version" text="Current Version : X.X.X" />
+      <engine:Button name="more_information_latest" class="moreinfo" text="More information"/>
+    </engine:VisualElement>
+    <!-- not latest -->
+    <engine:VisualElement name="notlatest" class="showstate">
+      <engine:TextElement class="message" text="There is a new version of Unity Plugin for STYLY available for download." />
+      <engine:TextElement name="current_version" class="version" text="Current Version : X.X.X" />
+      <engine:TextElement name="latest_version" class="version" text="Latest Version : X.X.X" />
+      <engine:VisualElement class="twobuttonsarea">
+        <engine:Button name="download_new_version" text="Download new version" />
+        <engine:Button name="skip_this_version" text="Skip this version" />
+      </engine:VisualElement>
+    </engine:VisualElement>
+    <!-- error -->
+    <engine:VisualElement name="error" class="showstate">
+      <engine:TextElement class="message" text="Failed to retrieve the data." />
+      <engine:Button name="more_information_notlatest" class="moreinfo" text="More information" />
+    </engine:VisualElement>
+    <engine:VisualElement name="checkbox">
+      <engine:Toggle name="show_at_startup" value="true" text="Show At Startup When Update is Available" />
+    </engine:VisualElement>
+  </engine:VisualElement>
+  <engine:VisualElement name="versionarea" class="section">
+    <engine:TextElement name="current_version" class="version" text="Current Version : X.X.X" />
+  </engine:VisualElement>
+  <engine:VisualElement name="footer" class="section">
+    <engine:Button name="about_styly" text="About STYLY" />
+  </engine:VisualElement>
+</engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:engine="UnityEngine.UIElements"
+  xsi:noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement name="error_area" class="errorarea">
+    <engine:TextElement text="Cache Server is strongly recommended. Change the setting at Edit-Preferences-CacheServer." />
+  </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,66 @@
+#screen{
+	background-color: #26353F;
+}
+Label, TextElement{
+	color: #D1DBE0;
+}
+
+#header{
+	margin:0 0 5px 0 ;
+	padding:6px 6px 0 6px;
+}
+#header .title{
+	flex-direction: row;
+	padding: 2px 0 0 0;
+}
+#header .title Label{
+	padding:1px 0 0 4px;
+	font-size: 16px;
+	-unity-font-style: bold;
+}
+#header .title Image{
+	background-image: url('../Images/styly_logo_white_20.png');
+	-unity-background-scale-mode: scale-to-fit;
+	width: 20px;
+	height: 20px;
+	justify-content: space-between;
+}
+
+.section {
+	width: auto;
+	padding:6px ;
+}
+
+#content {
+	padding:0 6px 0 6px;
+}
+
+#content .showstate .moreinfo{
+	width : 60%;
+	margin: 15px auto;
+}
+#content .showstate .twobuttonsarea{
+	flex-direction: row;
+	margin: 15px auto;
+	width : 90%;
+}
+#content .showstate .twobuttonsarea Button{
+	width : 49%;
+}
+
+#content #latest .message,
+#content #notlatest .message{
+	padding: 0 0 6px 0;
+}
+
+#versionarea {
+	flex-direction: row-reverse;
+}
+
+#footer{
+	background-color: #0A151C;
+	flex-direction: row-reverse;
+}
+#footer Button{
+}
+

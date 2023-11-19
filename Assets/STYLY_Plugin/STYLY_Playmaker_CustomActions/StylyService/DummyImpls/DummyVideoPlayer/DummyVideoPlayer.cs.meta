@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1431aab24cc14a04988e830ec760883a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hlsErrorTexture: {fileID: 2800000, guid: c4d1d0de875f68246be070074b2f85cb, type: 3}
+  - generalErrorTexture: {fileID: 2800000, guid: def9c7e9dda642e4eb9ec9dcfbb7c81e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

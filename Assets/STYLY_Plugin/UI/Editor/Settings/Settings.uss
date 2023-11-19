@@ -1,0 +1,79 @@
+#screen{
+	background-color: #26353F;
+}
+Label, TextElement{
+	color: #D1DBE0;
+}
+
+#header{
+	margin:0 0 5px 0 ;
+}
+#header .title{
+	flex-direction: row;
+	padding: 2px 0 7px 0;
+}
+#header .title Label{
+	padding:1px 0 0 4px;
+	font-size: 16px;
+	-unity-font-style: bold;
+}
+
+#header .title Image{
+	background-image: url('../Images/styly_logo_white_20.png');
+	-unity-background-scale-mode: scale-to-fit;
+	width: 20px;
+	height: 20px;
+	justify-content: space-between;
+}
+#header .textline{
+	padding: 0 0 7px 0;
+}
+
+#header Box{
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #0A151C;
+	width: 96%;
+	margin: auto;
+
+}
+#header Button {
+	width: 46%;
+	margin:5px;
+}
+
+.section {
+	width: auto;
+	padding: 6px;
+}
+
+.inputline {
+	flex-direction: row;
+	padding: 0 0 7px 0;
+}
+.inputline Label {
+	width: 25%;
+}
+.inputline TextField {
+	width: 75%;
+	padding-right: 5px;
+}
+
+.checkwithhelp{
+	padding-bottom:10px ;
+}
+.checkwithhelp Toggle {
+	margin:10px 0;
+}
+.checkwithhelp Box {
+	background-color: #0A151C;
+	padding:3px 3px 3px 18px;
+}
+
+#footer{
+	background-color: #0A151C;
+	flex-direction: row-reverse;
+}
+#footer Button{
+}
+
